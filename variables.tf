@@ -13,7 +13,7 @@ variable "docker_host" {
 variable "uptime_kuma_port" {
   description = "Host port exposed for the uptime dashboard."
   type        = number
-  default     = 3001
+  default     = 3003
 }
 
 variable "uptime_kuma_image" {
